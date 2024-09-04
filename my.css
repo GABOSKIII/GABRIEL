@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body{
+    background-color: rgb(255, 255, 255);
+ }
+ nav{
+    color: white;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+ }
+.first{
+    display: flex;
+    flex-direction: row;
+    column-gap:50px;
+    margin-left: 20px;
+    padding-top: 30px;
+} 
+.first h2{
+    font-size: xx-large;
+    margin-top: 0px;
+    margin-right:500px;
+}
+.first span{
+    color: purple;
+}
+.first h3{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.first a{
+    text-decoration: none;
+    color: white;
+}
+.first h3:hover{
+    color: purple;
+    cursor: pointer;
+}
+.first h3.active{
+    color: purple;
+}
+.homepage{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.mariam{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.homepage{
+    width: 800px;
+    height: 450px;
+}
+.mariam h1{
+    font-size: 40px;
+    font-family: Lucida Handwriting;
+}
+.mariam span{
+    color: purple;
+}
+.money{
+    display: flex;
+    flex-direction: row;
+}
+.over{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+.money button:hover{
+    color: white;
+    background-color: black;
+}
+.money button{
+    color: black;
+    background-color: white;
+    font-size: 13px;
+    font-weight: 600;
+    width: 100px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.moon button:hover{
+    color: white;
+    background-color: purple;
+}
+
+.moon button{
+    background-color: white;
+    border: 3px solid purple;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    width: 100px;
+    height: 40px;    
+}
+.homepage img{
+    width: 330px;
+    height: 300px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+.homepage img:hover{
+    background-color: pink;
+    border-radius: 50%;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-color:white;
+    display: grid;
+    grid-template-areas: "first first second third"
+                         "fourth fifth fifth third" ;
+    row-gap:15px;
+    column-gap: 10px;
+    }
+    
+    .container .big:nth-child(1){
+    background-color:black;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 5px;
+    grid-area: first;
+    /* height: 100px; */
+    /* width: 300px; */
+    }
+    .container .big:nth-child(2){
+    background-color:grey;
+    border: 3px solid grey;
+    text-align: center;
+    border-radius: 5px;
+    grid-area: second;
+    /* height: 100px; */
+    /* width: 300px; */
+    }
+    .container .big:nth-child(3){
+    background-color:black;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 5px;
+    grid-area: third;
+    }
+    .container .big:nth-child(4){
+    background-color:grey;
+    border: 3px solid grey;
+    text-align: center;
+    border-radius: 5px;
+    grid-area:fourth ;
+    }
+    .container .big:nth-child(5){
+    background-color:black;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 5px;
+    grid-area: fifth;
+    }
+    .now{
+        font-size: medium;
+    }
+    .long .kind{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .long h3{
+        color: white;
+    }
+    .container .big .long{
+        display: flex;
+        flex-direction: row;
+    }
+    .long img{
+        height: 70px;
+        width: 60px;
+        border-radius: 50%;
+    }
+    
+@media (min-width:320px) and (max-width:480px){
+    .over{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        justify-content: space-evenly;
+    }
+    .homepage{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: 200px;
+    }
+}
