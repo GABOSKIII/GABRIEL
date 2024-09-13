@@ -3,39 +3,47 @@
     margin: 0;
     box-sizing: border-box;
 }
+
  body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(62, 56, 56);
+
+ }
+ .media{
+     text-wrap:nowrap ;
  }
  nav{
     color: white;
     width: 100%;
-    height: 100px;
+    height: 70px;
     background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    z-index: 10000;
  }
 .first{
     display: flex;
     flex-direction: row;
-    column-gap:50px;
+    text-align: center;
     margin-left: 20px;
-    padding-top: 30px;
+    padding-top: 15px;
 } 
 .first h2{
     font-size: xx-large;
     margin-top: 0px;
-    margin-right:500px;
+    margin-right:400px;
 }
 .first span{
     color: purple;
 }
-.first h3{
+.first a{
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 16px;
 }
 .first a{
     text-decoration: none;
     color: white;
 }
-.first h3:hover{
+.first a:hover{
     color: purple;
     cursor: pointer;
 }
@@ -45,7 +53,7 @@
 .homepage{
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 200px;
 }
 .mariam{
@@ -79,7 +87,7 @@
 }
 .money button{
     color: black;
-    background-color: white;
+    background-color: rgb(62, 56, 56);
     font-size: 13px;
     font-weight: 600;
     width: 100px;
@@ -91,9 +99,8 @@
     color: white;
     background-color: purple;
 }
-
 .moon button{
-    background-color: white;
+    background-color: rgb(62, 56, 56);
     border: 3px solid purple;
     border-radius: 5px;
     font-size: 13px;
@@ -107,94 +114,640 @@
     margin-left: 50px;
     border-radius: 50%;
 }
-.homepage img:hover{
-    background-color: pink;
-    border-radius: 50%;
-}
-
-.container{
-    height: 100vh;
-    width: 100%;
+.hey{
+    margin-left: 50px;
+    font-size: 50px;
     color: white;
-    background-color:white;
-    display: grid;
-    grid-template-areas: "first first second third"
-                         "fourth fifth fifth third" ;
-    row-gap:15px;
-    column-gap: 10px;
-    }
-    
-    .container .big:nth-child(1){
-    background-color:black;
+}
+.hey span{
+    color: purple;
+}
+.hello{
+    width: 100%;
+    height: 650px;
+    background-color: black;
+}
+ .hello img{
+  width: 450px;
+  height: 250px;
+  margin-left: 100px;
+ }   
+ .rita{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+ }
+ .bing{
+    color: white;
+    font-size: 16px;
+    width: 300px;
+    height: 210px;
+    margin-left: 50px;
+ }
+ .ling{
+    margin-top: 1px;
+    margin-left: 100px;
+ }
+ .milk{
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+ }
+ .jummy{
+    width: 100%;
+    height: 700px;
+    background-color: purple;
+    color: white;
+    padding-top: 150px;
+    padding-left: 300px;
+ }
+ .jummy input::placeholder{
+    color: white;
+ }
+ .jummy h2{
+    font-size: 20px;
+    margin-left: 120px;
+ }
+ .jummy h1{
+    font-size: 40px;
+    margin-left: 220px;
+ }
+ .jummy input{
+    color: white;
+    background-color: black;
+    border: 3px solid purple;
+ }
+ .live{
+    display: flex;
+    flex-direction: row;
+ }
+ .live input{
+    padding-left: 20px;
+    width: 300px;
+    height: 60px;
+    border: 3px solid purple;
+    border-radius: 10px;
+ }
+ .living{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+ }
+ .living input{
+    padding-left: 20px;
+    width: 300px;
+    height: 60px;
+    border: 3px solid purple;
+    border-radius: 10px; 
+ }
+ .none input{
+    margin-top: 10px;
+    width: 600px;
+    height: 250px;
+    border: 3px solid purple;
+    border-radius: 10px;
+
+    padding-left: 20px;
+ }
+ .jummy button{
+    color: white;
+    background-color: black;
     border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 250px;
+    width: 100px;
+    height: 50px;
+ }
+ .jummy button:hover{
+    font-weight: 600;
+    color: black;
+    background-color:rgb(62, 56, 56) ;
+ }
+ .baby{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+ }
+ .baby{
     text-align: center;
+    padding-top: 100px;
+ }
+ .ming{
+    font-size: 30px;
+    color: white;
+}
+.ming span{
+    color: purple;
+}
+.done{
+    height: 35px;
+    width: 650px;
+    padding-top: 12px;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.781); 
+    border-radius: 30px;
+}
+.overrall{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.long{
+    margin-top: 10px;
+    color: white;
+    background-color: purple;
     border-radius: 5px;
-    grid-area: first;
-    /* height: 100px; */
-    /* width: 300px; */
+    height: 30px;
+    width: 100px;
+    padding-top: 5px;
+}
+.jumpper{
+    width: 700px;
+    height: 50px;
+    padding-top: 7px;
+    padding-left: 10px;
+    background-color: rgb(62, 56, 56);
+    border-radius: 50px;
+ }
+ .longer{
+    width: 600px;
+    height: 10px;
+    background-color: purple;
+    border-radius: 10px;
+ }
+.jumpper:hover .longer{
+    animation-name: increase;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+ 
+ @keyframes increase{
+    from{
+        width: 10px;
     }
-    .container .big:nth-child(2){
-    background-color:grey;
-    border: 3px solid grey;
-    text-align: center;
+    to{
+        width: 600px;
+    }
+ }
+ .corel{
+    margin-top: 10px;
+    color: white;
+    background-color: purple;
     border-radius: 5px;
-    grid-area: second;
-    /* height: 100px; */
-    /* width: 300px; */
+    height: 30px;
+    width: 150px;
+    padding-top: 5px;
+}
+ .center{
+    width: 400px;
+    height: 10px;
+    background-color: purple;
+    border-radius: 10px;
+ }
+ .jumpper:hover .center{
+    animation-name: books;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes books{
+    from{
+        width: 10px;
     }
-    .container .big:nth-child(3){
-    background-color:black;
-    border: 3px solid black;
-    text-align: center;
+    to{
+        width: 400px;
+    }
+ }
+ .lexy{
+    margin-top: 10px;
+    color: white;
+    background-color: purple;
     border-radius: 5px;
-    grid-area: third;
+    height: 30px;
+    width: 150px;
+    padding-top: 5px;
+}
+.drop{
+    width: 600px;
+    height: 10px;
+    background-color: purple;
+    border-radius: 10px;
+ }
+.jumpper:hover .drop{
+    animation-name: increase;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+ 
+ @keyframes increase{
+    from{
+        width: 10px;
     }
-    .container .big:nth-child(4){
-    background-color:grey;
-    border: 3px solid grey;
-    text-align: center;
-    border-radius: 5px;
-    grid-area:fourth ;
+    to{
+        width: 600px;
     }
-    .container .big:nth-child(5){
-    background-color:black;
-    border: 3px solid black;
-    text-align: center;
-    border-radius: 5px;
-    grid-area: fifth;
+ }
+ .mariam{
+    animation-name: home;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+} 
+@keyframes home {
+    from{
+        left: 20px;
     }
-    .now{
-        font-size: medium;
+    to{
+transform: translate(-700px);
     }
-    .long .kind{
-        display: flex;
-        flex-direction: column;
+}
+.mingle{
+    animation-name: athome;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+} 
+@keyframes athome {
+    from{
+        right: 20px;
     }
-    
-    .long h3{
+    to{
+transform: translate(700px);
+    }
+}
+@media (min-width:320px) and (max-width:480px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html {
+        overflow-x: hidden;
+    }
+     body{
+        background-color: rgb(62, 56, 56);
+        overflow-x: hidden;
+        width: 100%;
+     }
+     .media{
+         text-wrap:nowrap ;
+     }
+     nav{
+        color: white;
+        width: 100%;  
+        height: 50px;
+        background-color: rgb(0, 0, 0);
+        position: fixed;
+        top: 0;
+        z-index: 10000;
+     }
+    .first{
+        display:flex;
+        flex-direction: row;
+        /* align-items: center;
+        text-align: center; */
+        column-gap:7px;
+        margin-left: 10px;
+        padding-top: 10px;
+    } 
+    .first h2{
+        font-size: 20px;
+        margin-top: 6px;
+        margin-right:80px;
+    }
+    .first span{
+        color: purple;
+    }
+    .first a{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .first a{
+        text-decoration: none;
         color: white;
     }
-    .container .big .long{
-        display: flex;
-        flex-direction: row;
+    .first a:hover{
+        color: purple;
+        cursor: pointer;
     }
-    .long img{
-        height: 70px;
-        width: 60px;
-        border-radius: 50%;
-    }
-    
-@media (min-width:320px) and (max-width:480px){
-    .over{
-        display: flex;
-        flex-direction: row;
-        margin-top: 30px;
-        justify-content: space-evenly;
+    .first h3.active{
+        color: purple;
     }
     .homepage{
         display: flex;
         flex-direction: column;
-        margin-top: 100px;
-        margin-left: 200px;
+        padding-top: 20px;
+        margin-top: 0px;
+        margin-left: 0px;
     }
+    .mariam{
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+    .homepage{
+        width: 200px;
+        height: 450px;
+    }
+    .mariam h1{
+        font-size: 15px;
+        font-family: Lucida Handwriting;
+    }
+    .mariam span{
+        color: purple;
+    }
+    .mariam h3{
+        font-size: 10px;
+    }
+    .money{
+        display: flex;
+        flex-direction: row;
+    }
+    .over{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        justify-content: space-evenly;
+    }
+    .money button:hover{
+        color: white;
+        background-color: black;
+    }
+    .money button{
+        color: black;
+        background-color: rgb(62, 56, 56);
+        font-size: 8px;
+        font-weight: 600;
+        width: 70px;
+        height: 30px;
+        border: 3px solid black;
+        border-radius: 5px;
+    }
+    .moon button:hover{
+        color: white;
+        background-color: purple;
+    }
+    .moon button{
+        background-color: rgb(62, 56, 56);
+        border: 3px solid purple;
+        border-radius: 5px;
+        font-size: 8px;
+        margin-top: 10px;
+        font-weight: 600;
+        width: 70px;
+        height: 30px;    
+    }
+    .homepage img{
+        width: 150px;
+        height: 150px;
+        margin-top: 10px;
+        margin-left: 50px;
+        border-radius: 50%;
+    }
+    .hey{
+        margin-left: 20px;
+        font-size: 15px;
+        color: white;
+    }
+    .hey span{
+        color: purple;
+    }
+    .hello{
+        width: 100%;
+        height: 650px;
+        background-color: black;
+        padding-left: 50px;
+    }
+     .hello img{
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      margin-left: 30px;
+     }   
+     .rita{
+        color: white;
+        font-size: 17px;
+        margin-bottom: 5px;
+        margin-left: 30px;
+     }
+     .bing{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        width: 200px;
+        height: 150px;
+        margin-left: 20px;
+     }
+     .ling{
+        width: 400px;
+        height: 300px;
+        margin-top: 1px;
+        margin-left: 0px;
+     }
+     .milk{
+        display: flex;
+        flex-direction: column;
+        padding-top: 150px;
+        margin-left: 0px;
+     }
+     .jummy{
+        width: 100%;
+        height: 600px;
+        background-color: purple;
+        color: white;
+        padding-top: 150px;
+        padding-left: 50px;
+     }
+     .jummy input::placeholder{
+        color: white;
+        font-size: 8px;
+     }
+     .jummy h2{
+        font-size: 10px;
+        margin-left: 35px;
+     }
+     .jummy h1{
+        font-size:10px;
+        margin-left: 100px;
+     }
+     .jummy input{
+        color: white;
+        background-color: black;
+        border: 3px solid purple;
+     }
+     .live{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+     }
+     .live input{
+        padding-left: 10px;
+        width: 100px;
+        height: 30px;        
+        border: 3px solid purple;
+        border-radius: 10px;
+     }
+     .living{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+        margin-top: 5px;
+     }
+     .living input{
+        padding-left: 10px;
+        width: 100px;
+        height: 30px;  
+        border: 3px solid purple;
+        border-radius: 10px; 
+     }
+     .none input{
+        margin-left: 20px;
+        margin-top: 0px;
+        width: 200px;
+        height: 100px;
+        border: 3px solid purple;
+        border-radius: 10px;
+        padding-left: 20px;
+     }
+     .jummy button{
+        color: white;
+        background-color: black;
+        border: 3px solid black;
+        border-radius: 10px;
+        font-size: 10px;
+        margin-top: 10px;
+        margin-left: 90px;
+        width: 70px;
+        height: 30px;
+     }
+     .jummy button:hover{
+        font-weight: 600;
+        color: black;
+        background-color:rgb(62, 56, 56) ;
+     }
+     .baby{
+        width: 100%;
+        height: 600px;
+        padding-left: 50px;
+        text-align: left;
+        background-color: black;
+     }
+     .baby{
+        padding-top: 100px;
+     }
+     /* .ming h1{
+        margin-left: 10px;
+     } */
+     .ming{
+        margin-bottom: 40px;
+        font-size: 15px;
+        margin-left: 80px;
+        color: white;
+    }
+    .ming span{
+        color: purple;
+    }
+    .done{
+        height: 35px;
+        width: 650px;
+        padding-top: 12px;
+        padding-left: 10px;
+        background-color: rgba(255, 255, 255, 0.781); 
+        border-radius: 30px;
+    }
+    .overrall{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .long{
+        margin-top: 10px;
+        font-size: 10px;
+        color: white;
+        background-color: purple;
+        border-radius: 5px;
+        height: 25px;
+        width: 80px;
+        padding-top: 6px;
+    }
+    .corel{
+        margin-top: 10px;
+        font-size: 9px;
+        color: white;
+        background-color: purple;
+        border-radius: 5px;
+        height: 25px;
+        width: 85px;
+        padding-top: 6px;
+    }
+    .lexy{
+        margin-top: 10px;
+        font-size: 10px;
+        color: white;
+        background-color: purple;
+        border-radius: 5px;
+        height: 25px;
+        width: 80px;
+        padding-top: 6px;
+    }
+    .jumpper{
+        width: 200px;
+        height: 50px;
+        padding-top: 7px;
+        padding-left: 10px;
+        background-color: rgb(62, 56, 56);
+        border-radius: 50px;
+     }
+     .longer{
+        width: 140px;
+        height: 10px;
+        background-color: purple;
+        border-radius: 10px;
+     }
+     .done{
+        width: 180px;
+     }
+     .jumpper:hover .longer{
+        animation-name: increase;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+     
+     @keyframes increase{
+        from{
+            width: 10px;
+        }
+        to{
+            width: 140px;
+        }
+     }
+     .center{
+        width: 100px;
+     }
+     .jumpper:hover .center{
+        animation-name: books;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes books{
+        from{
+            width: 10px;
+        }
+        to{
+            width: 100px;
+        }
+     }
+     .drop{
+        width: 140px;
+     }
+     
 }
+/* .jumpper:hover .longer{
+    transition: width;
+transform: translate(600px);
+} */
