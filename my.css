@@ -24,6 +24,7 @@
     display: flex;
     flex-direction: row;
     text-align: center;
+    column-gap: 30px;
     margin-left: 20px;
     padding-top: 15px;
 } 
@@ -159,8 +160,8 @@
     height: 700px;
     background-color: purple;
     color: white;
-    padding-top: 150px;
-    padding-left: 300px;
+    padding-top: 100px;
+    padding-left: 230px;
  }
  .jummy input::placeholder{
     color: white;
@@ -411,14 +412,14 @@ transform: translate(700px);
         flex-direction: row;
         /* align-items: center;
         text-align: center; */
-        column-gap:7px;
+        column-gap:9px;
         margin-left: 10px;
         padding-top: 10px;
     } 
     .first h2{
         font-size: 20px;
         margin-top: 6px;
-        margin-right:80px;
+        margin-right:50px;
     }
     .first span{
         color: purple;
