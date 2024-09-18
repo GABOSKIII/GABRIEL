@@ -419,7 +419,7 @@ transform: translate(700px);
     .first h2{
         font-size: 20px;
         margin-top: 6px;
-        margin-right:100px;
+        margin-right:70px;
     }
     .first span{
         color: purple;
@@ -444,14 +444,14 @@ transform: translate(700px);
         flex-direction: column;
         padding-top: 20px;
         margin-top: 0px;
-        margin-left: 100px;
+        margin-left: 50px;
     }
     .mariam{
         margin-top: 70px;
         margin-left: 20px;
     }
     .homepage{
-        width: 200px;
+        width: 250px;
         height: 450px;
     }
     .mariam h1{
@@ -521,7 +521,7 @@ transform: translate(700px);
         width: 100%;
         height: 650px;
         background-color: black;
-        padding-left: 100px;
+        padding-left: 35px;
     }
      .hello img{
       border-radius: 50%;
@@ -561,7 +561,7 @@ transform: translate(700px);
         background-color: purple;
         color: white;
         padding-top: 150px;
-        padding-left: 50px;
+        padding-left: 0px;
      }
      .jummy input::placeholder{
         color: white;
@@ -569,11 +569,11 @@ transform: translate(700px);
      }
      .jummy h2{
         font-size: 20px;
-        margin-left: 20px;
+        margin-left: 5px;
      }
      .jummy h1{
         font-size:16px;
-        margin-left: 150px;
+        margin-left: 130px;
      }
      .jummy input{
         color: white;
@@ -674,7 +674,7 @@ transform: translate(700px);
         display: flex;
         flex-direction: column;
         margin-top: 10px;
-        margin-left: 80px;
+        margin-left: 30px;
     }
     .long{
         margin-top: 10px;
