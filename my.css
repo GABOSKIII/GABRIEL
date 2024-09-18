@@ -6,7 +6,7 @@
 
  body{
     background-color: rgb(62, 56, 56);
-
+    overflow-x: hidden
  }
  .media{
      text-wrap:nowrap ;
@@ -175,6 +175,7 @@
     margin-left: 220px;
  }
  .jummy input{
+    outline: none;
     color: white;
     background-color: black;
     border: 3px solid purple;
@@ -202,10 +203,18 @@
     border: 3px solid purple;
     border-radius: 10px; 
  }
- .none input{
+ .none textarea::placeholder{
+    color: white;
+ }
+ .none textarea{
+    color: white;
+    outline: none;
     margin-top: 10px;
     width: 600px;
     height: 250px;
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 10px;
     border: 3px solid purple;
     border-radius: 10px;
 
@@ -285,7 +294,6 @@
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
- 
  @keyframes increase{
     from{
         width: 10px;
@@ -342,8 +350,7 @@
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
- 
- @keyframes increase{
+  @keyframes increase{
     from{
         width: 10px;
     }
