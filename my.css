@@ -568,7 +568,7 @@ transform: translate(700px);
         font-size: 8px;
      }
      .jummy h2{
-        font-size: 20px;
+        font-size: 18px;
         margin-left: 5px;
      }
      .jummy h1{
@@ -579,6 +579,7 @@ transform: translate(700px);
         color: white;
         background-color: black;
         border: 3px solid purple;
+        border-radius: 0px;
      }
      .live{
         display: flex;
